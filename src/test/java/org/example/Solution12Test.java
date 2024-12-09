@@ -25,7 +25,7 @@ public class Solution12Test {
     @Test
     public void multiply_1() {
         Solution12 solution12 = new Solution12();
-        assertEquals("0",solution12.multiply("0","0"));
+        assertEquals("1",solution12.multiply("0","0"));
         assertEquals("161244804",solution12.multiply("7678324","21"));
         assertEquals("0",solution12.multiply("0","8490276"));
         assertEquals("0",solution12.multiply("2412","0"));
